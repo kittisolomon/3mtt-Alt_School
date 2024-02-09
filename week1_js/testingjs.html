@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Testing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+        button{
+            background-color: #4CAF50;
+            border:solid 1px #4CAF50 ;
+            color:white;
+            padding: 14px 20px;
+            margin: 8px 0px;
+            cursor:pointer;
+            width: 10%;
+            border-radius: 5px;
+            font-size: large;
+            
+        }
+        </style>
+    </head>
+    <body>
+    <button type="submit">Click Me</button>
+
+    <!-- scrpts -->
+    <script>
+        const button = document.querySelector('button');
+
+        button.addEventListener('click', sayMyName);
+
+        function sayMyName(){
+            alert('My name is JavaScript');
+        }
+    </script>
+    </body>
+</html>

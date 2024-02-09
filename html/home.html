@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <header>
+        <nav class="nav">
+        <!-- 1. Internal Navigation -->
+        <a href="./">Home Page</a>
+        <a href="./about/">About Page</a>
+        <!-- 2. External Navigation -->
+        <a href="https://pwafire.org" target="_blank">Go-to pwafire.org</a>
+        </nav>
+    </header>
+    <section>
+        <h1>Home Page</h1>
+        <!-- Download with original filename -->
+        <a href="./assets/images/IMG_20221009_143450.jpg" download>
+            Download Image</a>
+        <br />
+        <!-- Download with custom filename -->
+        <a href="./assets/images/IMG_20221009_143450.jpg" download="altschool_image">
+            Download Image
+        </a>
+    </section>
+    <section>
+        <br /><br />
+        <p>Handling Media in HTML Audio</p>
+        <!-- Embed audio in HTML -->
+        <audio src="./assets/audio/Harmonize_-_Dear_X.mp3" controls></audio>
+        <br />
+        <p id="sec-p">Handling Media in HTML Video</p>
+        <!-- Embed video in HTML -->
+        <video src="./assets/video/salmon_fish_stream_water_river_964.mp4" controls width="30%"></video>
+    </section>
+    <section>
+        <!-- Forms in HTML => Data Collection -->
+        <br><br>
+        <form>
+            <label for="name" class="in-labels">Enter your name</label>
+            <br>
+            <input type="text" name="name" placeholder="name" />
+            <br>
+            <label for="lastname" class="in-labels">Enter your lastname</label>
+            <br>
+            <input type="text" name="lastname" placeholder="lastname" />
+            <br>
+            <label for="gender" class="in-labels">Gender</label>
+            <br>
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+            <label for="email" class="in-labels">Enter your email</label>
+            <br>
+            <input type="email" name="email" placeholder="email" />
+            <br>
+            <label for="password" class="in-labels">Enter your password</label>
+            <br>
+            <input type="password" name="password" placeholder="password" />
+            <br>
+            <input type="submit" name="submit" value="Send" />
+        </form>
+    </section>
+</body>
+
+</html>
