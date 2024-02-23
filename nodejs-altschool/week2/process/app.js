@@ -16,6 +16,14 @@ const nodeRelease = process.release;
 
 // Read command line arguments
 const args = process.argv;
-console.log(args);
+// console.log(args);
 
+// Get Environment variables
+// You can use the dotenv package to read environment variables in .env files
 
+const env = process.env;
+// console.log(env);
+
+// Get the current working directory
+const cwd = process.cwd();
+console.log(cwd);

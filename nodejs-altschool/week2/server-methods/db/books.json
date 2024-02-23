@@ -1,0 +1,26 @@
+[
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "year": 2014,
+    "id": 1
+  },
+  {
+    "title": "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming",
+    "author": "Adele Hopkins",
+    "year": 2028,
+    "id": 2
+  },
+  {
+    "title": "Rudiments of NodeJs",
+    "author": "Kitti Tertsegha Solomon",
+    "year": 2030,
+    "id": 4
+  },
+  {
+    "title": "Concepts in Nodejs",
+    "author": "Rising  Odegua",
+    "year": 2025,
+    "id": 5
+  }
+]

@@ -1,0 +1,93 @@
+:root {
+    --bg: #0A1D56;
+    --c-bg: #492E87;
+    --white: #FFFFFF; 
+    --green: #4caf50; 
+    --hover-green: #83ff87;
+    --box-shadow:  -3px 4px 24px 0px rgba(0,0,0,0.55); 
+  }
+
+html,
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+}
+
+.container {
+    background-color: var(--c-bg);
+    border-radius: 8px;
+    margin: auto auto;
+    margin-top: 60px;
+    width: 50vh;
+    height: 80vh;
+    padding: 20px 60px;
+}
+
+.contain-elem {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  color: var(--white);
+  text-align: center;
+  border-radius: 5%;
+ 
+}
+
+label {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus {
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);;
+  -moz-box-shadow: var(--box-shadow);
+}
+
+select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.reg-btn {
+  background-color: var(--green); 
+  color: white; 
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-top: 15px;
+  font-weight: bold;
+  transition: background-color 2s ease; /
+}
+
+.reg-btn:hover {
+  background-color: var(--hover-green);
+}
+
+
+
+
+
+
